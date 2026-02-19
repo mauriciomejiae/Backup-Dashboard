@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Streamlit Secrets (NUNCA subir credenciales)
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/static/
+
+# Temporales y logs
+streamlit_backup_uploads/
+*.log
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
